@@ -14,8 +14,7 @@ altura = float (input ("Qual a sua altura "))
 imc = peso / (altura ** 2)
 
 #Exibição com f-string (formatando para duas casas decimais)
-print (f"OLá,{nome}, obrigado por aguardar !")
-print (f"Olá {nome} seu IMC é {imc :.2f} ")
+print (f"OLá,{nome}, obrigado por aguardar. Seu IMC é {imc :.2f} !")
 
 """
 Done//
